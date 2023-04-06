@@ -1,3 +1,4 @@
+
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-rw");
 const links = document.querySelectorAll(".nav-rw li");
@@ -40,3 +41,4 @@ axios.get(API_URL).then(function (response) {
 
   trendingMovies.innerHTML = trendingMoviesHTML;
 });
+
